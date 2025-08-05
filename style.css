@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(163, 95, 195, 1);
+    font-family: "Comic Sans MS", monospace;
+}
+.container{
+    width: 350px;
+    height: 350px;
+}
+.start-restart-btn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(145, 84, 173, 0.9);
+    color: rgb(109, 53, 105);
+}
+.start-btn{
+    font-family: "Comic Sans MS", monospace;
+    font-weight: bold;
+    font-size: 30px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    height: 60px;
+    margin-bottom: 15px;
+    color: rgb(109, 53, 105);
+    background-color: rgb(137, 71, 133);
+}
+.button-container{
+    width: 350px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.btn{
+    font-family: "Comic Sans MS", monospace;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: rgb(189, 144, 211);
+    border: none;
+    color: rgb(109, 53, 105);
+}
+
+.hidden{
+    display: none;
+}
+
+.result{
+    display: flex;
+    gap: 40px;
+}
